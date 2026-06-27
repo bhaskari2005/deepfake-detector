@@ -1,0 +1,19 @@
+# torch/torchvision/torchaudio already installed manually (cu121) - not listed here
+numpy<2
+opencv-python
+pillow
+scikit-learn
+scikit-image
+matplotlib
+tqdm
+pyyaml
+requests
+huggingface_hub
+gdown
+timm
+albumentations
+facenet-pytorch
+gradio
+fastapi
+uvicorn[standard]
+python-multipart

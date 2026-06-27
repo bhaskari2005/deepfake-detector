@@ -1,0 +1,53 @@
+detectors:
+  - name: xception
+    type: dfb
+    yaml: xception.yaml
+    checkpoint: xception_best.pth
+  - name: efficientnetb4
+    type: dfb
+    yaml: efficientnetb4.yaml
+    checkpoint: effnb4_best.pth
+  - name: ucf
+    type: dfb
+    yaml: ucf.yaml
+    checkpoint: ucf_best.pth
+  - name: spsl
+    type: dfb
+    yaml: spsl.yaml
+    checkpoint: spsl_best.pth
+  - name: f3net
+    type: dfb
+    yaml: f3net.yaml
+    checkpoint: f3net_best.pth
+  - name: srm
+    type: dfb
+    yaml: srm.yaml
+    checkpoint: srm_best.pth
+  - name: ffd
+    type: dfb
+    yaml: ffd.yaml
+    checkpoint: ffd_best.pth
+  - name: core
+    type: dfb
+    yaml: core.yaml
+    checkpoint: core_best.pth
+  - name: recce
+    type: dfb
+    yaml: recce.yaml
+    checkpoint: recce_best.pth
+  - name: capsule_net
+    type: dfb
+    yaml: capsule_net.yaml
+    checkpoint: capsule_best.pth
+  - name: meso4Inception
+    type: dfb
+    yaml: meso4Inception.yaml
+    checkpoint: meso4Incep_best.pth
+  - name: cnndetection
+    type: standalone
+  - name: univfd
+    type: standalone
+
+ensemble:
+  aggregation: "mean"
+  fake_threshold: 0.5

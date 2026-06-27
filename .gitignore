@@ -1,0 +1,12 @@
+weights/*
+!weights/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.pth
+*.pt
+*.ckpt
+__pycache__/
